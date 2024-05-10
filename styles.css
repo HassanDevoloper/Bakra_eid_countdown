@@ -1,0 +1,37 @@
+
+body {
+    background-image: url('bakra-eid-background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#countdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+span {
+    font-size: 2rem;
+    display: block;
+}
